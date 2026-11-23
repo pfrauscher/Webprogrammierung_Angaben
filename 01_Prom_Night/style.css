@@ -1,0 +1,68 @@
+/* CSS-ARBEITSAUFTEILUNG – siehe ARBEITSVERTEILUNG.txt
+   Paket A: CSS-TODOs 1, 6, 10 (body, Bild, Rahmen/Ecken)
+   Paket B: CSS-TODOs 2, 5, 7 (Kopfzeile, Hauptueberschrift, Footer)
+   Paket C: CSS-TODOs 3, 11 (Navigation und Flexbox/Grid)
+   Paket D: CSS-TODOs 4, 8, 9 (Inhaltsbereich und eigene Klasse .wichtig erstellen/verwenden)
+   Jede Person bearbeitet das Paket, das neben ihrer HTML-Seite angegeben ist.
+*/
+/* Prom Night – alte Website aus dem Jahr 2025 */
+/* TODO CSS 1: Aendert Hintergrundfarbe, Schriftfamilie, Schriftgroesse und Textfarbe der gesamten Website. */
+body {
+    font-family: "Comic Sans MS", Arial, sans-serif;
+    font-size: 14px;
+    color: #222222;
+    background-color: #d6d6e8;
+    margin: 12px;
+}
+
+/* TODO 2: Aendert Hintergrundfarbe, Textfarbe und Groesse der Kopfzeile. */
+header {
+    background-color: #333366;
+    color: #ffff99;
+    padding: 8px;
+    text-align: center;
+}
+
+/* TODO 3: Aendert Hintergrundfarbe und Linkfarbe der Navigation. */
+nav {
+    background-color: #cccccc;
+    padding: 8px;
+    text-align: center;
+}
+nav a {
+    color: #0000cc;
+    margin-right: 12px;
+}
+
+/* TODO 4: Aendert Breite, Hintergrundfarbe, margin und padding des Inhaltsbereichs. */
+main {
+    background-color: #ffffff;
+    width: 850px;
+    margin: 12px auto;
+    padding: 12px;
+}
+
+/* TODO CSS 5: Aendert Farbe und Schriftgroesse der Hauptueberschrift. */
+h1 {
+    color: #990033;
+    font-size: 28px;
+}
+
+/* TODO CSS 6: Passt die Bildgroesse an und gebt dem Bild bei Bedarf einen Rahmen. */
+img {
+    width: 240px;
+    height: 145px;
+    border: 1px solid #555555;
+}
+
+/* TODO CSS 7: Gestaltet den Footer passend zum Rest der Website. Aendert z. B. Hintergrundfarbe und padding. */
+footer {
+    background-color: #cccccc;
+    padding: 8px;
+    text-align: center;
+}
+
+/* TODO CSS 8: Erstellt eine eigene CSS-Klasse .wichtig und legt z. B. Farbe und Schriftgroesse fest. */
+/* TODO CSS 9: Verwendet die Klasse .wichtig bei einem passenden HTML-Element. */
+/* TODO CSS 10: Gebt einem Element einen Rahmen oder abgerundete Ecken. */
+/* TODO CSS 11: Ordnet die Navigationslinks mit Flexbox oder Grid an. Tipp: display: flex; */

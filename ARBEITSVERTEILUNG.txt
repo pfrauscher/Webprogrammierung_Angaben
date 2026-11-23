@@ -1,0 +1,29 @@
+ARBEITSVERTEILUNG – VIER PERSONEN PRO PROJEKT
+
+Jede Person uebernimmt eine HTML-Seite und das daneben angegebene CSS-Paket. Die Kommentare am Anfang jeder HTML-Datei nennen ebenfalls die PDF-Seite, die benoetigten Abschnitte und das CSS-Paket.
+
+CSS-Pakete (in jeder style.css gleich):
+A = TODO 1, 6, 10 | Body, Bild, Rahmen/Ecken (3 Aufgaben)
+B = TODO 2, 5, 7 | Kopfzeile, Hauptueberschrift, Footer (3 Aufgaben)
+C = TODO 3, 11 | Navigation, Flexbox/Grid (2 Aufgaben; Flexbox/Grid ist anspruchsvoller)
+D = TODO 4, 8, 9 | Inhaltsbereich, eigene Klasse erstellen und im HTML verwenden (3 Aufgaben)
+
+PROM NIGHT
+1: index.html + A | 2: ball.html + C | 3: programm.html + B | 4: kontakt.html + D
+
+NEXT LEVEL CUP
+1: index.html + A | 2: event.html + C | 3: games.html + B | 4: anmeldung.html + D
+
+PFOTENFREUNDE
+1: index.html + A | 2: tierheim.html + B | 3: tiere.html + C | 4: helfen.html + D
+
+SOUNDCHECK
+1: index.html + A | 2: mitglieder.html + C | 3: songs.html + B | 4: auftritte.html + D
+
+KAFFEEKLATSCH
+1: index.html + A | 2: speisekarte.html + B | 3: besuch.html + C | 4: kontakt.html + D
+
+MYSTERY ROOMS
+1: index.html + A | 2: raeume.html + C | 3: preise.html + B | 4: gruppen.html + D
+
+Wichtig: Die Seiten sind unterschiedlich aufgebaut, aber jede Person bekommt eine eigene HTML-Seite sowie einen klar abgegrenzten Teil der gemeinsamen CSS-Datei. Die zwei zusaetzlichen h2-Ueberschriften werden nur auf index.html erstellt; sie muessen nicht auf jeder Seite vorkommen.

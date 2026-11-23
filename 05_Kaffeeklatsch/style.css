@@ -1,0 +1,66 @@
+/* CSS-ARBEITSAUFTEILUNG – siehe ARBEITSVERTEILUNG.txt
+   Paket A: CSS-TODOs 1, 6, 10 (body, Bild, Rahmen/Ecken)
+   Paket B: CSS-TODOs 2, 5, 7 (Kopfzeile, Hauptueberschrift, Footer)
+   Paket C: CSS-TODOs 3, 11 (Navigation und Flexbox/Grid)
+   Paket D: CSS-TODOs 4, 8, 9 (Inhaltsbereich und eigene Klasse .wichtig erstellen/verwenden)
+   Jede Person bearbeitet das Paket, das neben ihrer HTML-Seite angegeben ist.
+*/
+/* Kaffeeklatsch – alte Café-Website aus dem Jahr 2025 */
+/* TODO CSS 1: Aendert Hintergrundfarbe, Schriftfamilie, Schriftgroesse und Textfarbe der gesamten Website. */
+body {
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 14px;
+    color: #442b1b;
+    background-color: #ead8c3;
+    margin: 12px;
+}
+
+/* TODO 2: Aendert Hintergrundfarbe, Textfarbe und Ausrichtung der Kopfzeile. */
+header {
+    background-color: #7c4a2d;
+    color: #fff0d8;
+    padding: 8px;
+    text-align: center;
+}
+
+/* TODO 3: Aendert die Navigation und die Linkfarbe. */
+nav {
+    background-color: #d1b18b;
+    padding: 8px;
+}
+nav a {
+    color: #0000aa;
+    margin-right: 12px;
+}
+
+/* TODO 4: Aendert Breite, Hintergrundfarbe und Abstaende des Inhaltsbereichs. */
+main {
+    background-color: #fffaf0;
+    width: 830px;
+    margin: 12px auto;
+    padding: 12px;
+}
+
+/* TODO CSS 5: Aendert Farbe und Schriftgroesse der Hauptueberschrift. */
+h1 {
+    color: #663300;
+    font-size: 26px;
+}
+
+/* TODO CSS 6: Passt die Bildgroesse an und gebt dem Bild bei Bedarf einen Rahmen. */
+img {
+    width: 240px;
+    height: 145px;
+    border: 1px solid #885533;
+}
+
+/* TODO CSS 7: Gestaltet den Footer passend zum Rest der Website. Aendert z. B. Hintergrundfarbe und padding. */
+footer {
+    background-color: #d1b18b;
+    padding: 8px;
+}
+
+/* TODO CSS 8: Erstellt eine eigene CSS-Klasse .wichtig und gestaltet sie. */
+/* TODO CSS 9: Verwendet .wichtig im HTML bei einer Spezialitaet oder einem Preis. */
+/* TODO CSS 10: Fuegt einen Rahmen oder abgerundete Ecken hinzu. */
+/* TODO CSS 11: Ordnet die Navigation mit Flexbox oder Grid an. Tipp: display: flex; */

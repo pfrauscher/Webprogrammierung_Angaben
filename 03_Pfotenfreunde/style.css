@@ -1,0 +1,66 @@
+/* CSS-ARBEITSAUFTEILUNG – siehe ARBEITSVERTEILUNG.txt
+   Paket A: CSS-TODOs 1, 6, 10 (body, Bild, Rahmen/Ecken)
+   Paket B: CSS-TODOs 2, 5, 7 (Kopfzeile, Hauptueberschrift, Footer)
+   Paket C: CSS-TODOs 3, 11 (Navigation und Flexbox/Grid)
+   Paket D: CSS-TODOs 4, 8, 9 (Inhaltsbereich und eigene Klasse .wichtig erstellen/verwenden)
+   Jede Person bearbeitet das Paket, das neben ihrer HTML-Seite angegeben ist.
+*/
+/* Pfotenfreunde – alte Website aus dem Jahr 2025 */
+/* TODO CSS 1: Aendert Hintergrundfarbe, Schriftfamilie, Schriftgroesse und Textfarbe der gesamten Website. */
+body {
+    font-family: Verdana, Arial, sans-serif;
+    font-size: 12px;
+    color: #333333;
+    background-color: #dce8d2;
+    margin: 15px;
+}
+
+/* TODO 2: Aendert die Farben und die Ausrichtung der Kopfzeile. */
+header {
+    background-color: #669966;
+    color: #ffffff;
+    padding: 7px;
+    text-align: left;
+}
+
+/* TODO 3: Aendert die Navigation und die Linkfarbe. */
+nav {
+    background-color: #eeeecc;
+    padding: 10px;
+}
+nav a {
+    color: #663300;
+    margin-right: 10px;
+}
+
+/* TODO 4: Aendert Breite, Hintergrundfarbe und Abstaende des Inhaltsbereichs. */
+main {
+    background-color: #ffffff;
+    width: 840px;
+    margin: 15px auto;
+    padding: 10px;
+}
+
+/* TODO CSS 5: Aendert Farbe und Schriftgroesse der Hauptueberschrift. */
+h1 {
+    color: #336633;
+    font-size: 24px;
+}
+
+/* TODO CSS 6: Passt die Bildgroesse an und gebt dem Bild bei Bedarf einen Rahmen. */
+img {
+    width: 240px;
+    height: 145px;
+    border: 1px solid #777777;
+}
+
+/* TODO CSS 7: Gestaltet den Footer passend zum Rest der Website. Aendert z. B. Hintergrundfarbe und padding. */
+footer {
+    background-color: #eeeecc;
+    padding: 8px;
+}
+
+/* TODO CSS 8: Erstellt eine eigene CSS-Klasse .wichtig und gestaltet sie. */
+/* TODO CSS 9: Verwendet .wichtig im HTML bei einer wichtigen Information. */
+/* TODO CSS 10: Ergaenzt einen Rahmen oder abgerundete Ecken. */
+/* TODO CSS 11: Ordnet die Navigation mit Flexbox oder Grid an. Tipp: display: flex; */
